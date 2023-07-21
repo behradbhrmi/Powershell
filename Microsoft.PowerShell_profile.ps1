@@ -1,5 +1,9 @@
 #  oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/my_kushal.omp.json" | Invoke-Expression
 
+#to install scoop :
+#> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+#> irm get.scoop.sh | iex
+
 
 # to install icons run following lines:
 # >scoop bucket add extras
