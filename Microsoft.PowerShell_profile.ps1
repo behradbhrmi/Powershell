@@ -1,6 +1,13 @@
 #  oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/my_kushal.omp.json" | Invoke-Expression
+
+
+# to install icons run following lines:
+# >scoop bucket add extras
+# >scoop install terminal-icons
+
 # to activate icons for Powershell
 Import-Module -Name Terminal-Icons
+
 # Show hello.py in Rainbow color with animation [-a] and duration [-d]
 cls
 python "C:\Users\Jarvis\Documents\PowerShell\hello.py"| lolcat -a -d 2
