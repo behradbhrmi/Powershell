@@ -1,4 +1,4 @@
-#  oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/my_kushal.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "./custom-theme.omp.json" | Invoke-Expression
 
 #to install scoop :
 #> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
@@ -13,5 +13,5 @@
 Import-Module -Name Terminal-Icons
 
 # Show hello.py in Rainbow color with animation [-a] and duration [-d]
-cls
-python "C:\Users\Jarvis\Documents\PowerShell\hello.py"| lolcat -a -d 2
+#cls
+#python "C:\Users\Jarvis\Documents\PowerShell\hello.py"| lolcat -a -d 2
