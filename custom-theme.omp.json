@@ -159,6 +159,13 @@
                 },
                 {
                     "properties": {
+                        "cycle":[
+                            "#006769",
+                            "#40A578",
+                            "#9DDE8B",
+                            "#E6FF94"
+                        ],
+                        "cycle_folder_separator": true,
                         "folder_icon": "\uf07b ",
                         "folder_separator_icon": " \ue285 ",
                         "home_icon": "\ueb06 ",
