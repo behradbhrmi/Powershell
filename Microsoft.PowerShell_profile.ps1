@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config "./custom-theme.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\Behrad\Documents\Powershell\custom-theme.omp.json" | Invoke-Expression
 
 #to install scoop :
 #> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
